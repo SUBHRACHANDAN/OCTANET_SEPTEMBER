@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/297/22/531/lake-blue-moonlight-moon-wallpaper-preview.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.edit-button, .delete-button, .complete-button {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #ffa500;
+}
+
+.delete-button {
+    background-color: #ff4500;
+}
+
+.complete-button {
+    background-color: #1e90ff;
+}
+
+.edit-button:hover {
+    background-color: #ff8c00;
+}
+
+.delete-button:hover {
+    background-color: #ff6347;
+}
+
+.complete-button:hover {
+    background-color: #1c86ee;
+}
